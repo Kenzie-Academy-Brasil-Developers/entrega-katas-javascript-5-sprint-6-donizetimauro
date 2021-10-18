@@ -65,7 +65,7 @@ function testMaximumValue1() {
 
 function testMaximumValue2(){
     let result = maximumValue("dog", "fish", "bear", "platypus");
-    let expected = NaN;
+    let expected = "NaN";
     console.assert(result === expected, `esperado: ${expected}, obtido: ${result}`)
 }
 
@@ -105,7 +105,7 @@ function testDistinctValues2() {
     console.assert(result === expected, `esperado: ${expected}, obtido: ${result}`)
 }
 
-//setima: 
+//setima: acha a incidencia dos valores dentro da string
 function countValues(value){
     const numbersCount = {}
     let numbers = value.split(" ");
